@@ -29,7 +29,6 @@ options.add_experimental_option('excludeSwitches', ['enable-logging'])
 driver = webdriver.Chrome(executable_path="chromedriver.exe",options=options)
 count = 0
 
-print(urls.url_list[:4])
 FMT = '%H:%M:%S'
 url_count = 0
 for row in rows:
