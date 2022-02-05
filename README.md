@@ -39,5 +39,5 @@ python az.py
 ```
 1. *az.py* python file for running the webscriping logic, getting url data from the csv file(provided: attched)
 2. ChromeDriver
-3. JSON file
+3. *my_json* JSON file
 4. CSV file (downloaded from the task spreadsheet)
