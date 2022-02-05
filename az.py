@@ -37,7 +37,7 @@ for row in rows:
     if url_count == 0:
         start_time = datetime.now().strftime(FMT)
     url_count+=1
-    if url_count == 3:
+    if url_count == 100:
         end_time =  datetime.now().strftime(FMT)
         time_elapsed = datetime.strptime(str(end_time), FMT) - datetime.strptime(str(start_time), FMT)
         print(f'Time taken by 100 URLS parsing:{"#"*10} H:M:S:: {time_elapsed} {"#"*10}\nRe-setting the url counter to zero...')
